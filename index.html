@@ -14,14 +14,965 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Resume - Sonia Ashfaq</title>
+    <link rel="icon" href="images/title-logo.png" type="image/gif" sizes="16x16">
+
+    <title>Resume - Mubeen Bhatti</title>
+
+
   </head>
 
   <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Profile</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#aboutUs">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <h1>Hello, world!</h1>
+    <!-- Section - Header/Splash/Welcome -->
+    <div class="jumbotron">
+      <div class="overlay-header"></div>
+      <div class="container">
+        <div class="jumbotron-info text-center text-light">
+          <a href="#" class="logo">
+            <img src="images/logo-ligth.png" alt="logo">
+          </a>
+          <!-- <h1 class="display-3">Front-end Developer</h1> -->
+          <p class="lead w-75 my-5 text-muted">I am from planet with a passion of Web, Web Application and Interactive UI/UX. I specialise in standards compliant
+                          websites with a focus on usability. Enthusiastic about life, coding, learing new tech/skills and innovation.</p>
+          <div class="media-link">
+            <div class="media-item linkedIn">
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div class="media-item skype">
+              <a href="#">
+                <i class="fab fa-skype"></i>
+              </a>
+            </div>
+            <div class="media-item faceBook">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="media-item gitHub">
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <!-- <a class="btn btn-outline-primary" href="#" role="button">More About Me</a> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Section - About us -->
+    <section id="aboutUs" class="section">
+      <div class="container">
+        <div class="text-block-head text-center">
+          <h2>About Me</h2>
+          <p>Front-end Developer</p>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <figure class="d-flex justify-content-center my-3">
+              <img class="img-responsive rounded-circle border" src="images/man-dp.png" alt="me dp pic" width="300" height="300">
+            </figure>
+          </div>
+          <div class="col-md-7">
+            <div class="aboutUs-detail my-3">
+              <h3>Muhammad Mubeen</h3>
+              <h4>Front end Developer</h4>
+              <div class="">
+                <p>My name is Mubeen Bhatti and I'm Front-end web designer and developer who specializes in creating dynamic and
+                  beautiful web pages. I have been in the field for nearly 3 years, and have been loving every minute of it.
+                  As a professional Front-end web developer, I bring a range optimization and quality in code to every project
+                  I work on. I love to explore design and interact people with it. I served my first two years at a small
+                  company as a blogger and SEO, but have since moved onto Front-end full time.</p>
+              </div>
+              <a class="btn btn-outline-primary" href="#" role="button">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section - About us -->
+    <!-- <section class="section bg-dark text-light">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col text-center">
+            <figure class="user-dp">
+              <img class="w-25" src="images/man-dp.png" alt="">
+            </figure>
+            <h1>Muhammad Mubeen</h1>
+            <strong class="designation">I'm Jr.Software Developer</strong>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-8">
+            <div class="text-block">
+              <h1>Personal Details</h1>
+              <p>Hye, I’m Johnathan Doe residing in this beautiful world. I create websites and mobile apps with great
+                UX and UI design. I have done work with big companies like Nokia, Google and Yahoo. Meet me or Contact
+                me for any queries.</p>
+              <p>One Extra line for filling space. Fill as many you want.Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+                ornare odio.</p>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <ul class="list-unstyled bio">
+              <li>
+                <i class="fas fa-user"></i>
+                <strong>Name:</strong>
+                <span>Muhammad Mubeen</span>
+              </li>
+
+              <li>
+                <i class="fas fa-phone"></i>
+                <strong>Phone:</strong>
+                <span>+92-3055352778</span>
+              </li>
+              <li>
+                <i class="fas fa-cloud"></i>
+                <strong>Email:</strong>
+                <span>mr.mubeenbhatti@email.com</span>
+              </li>
+              <li>
+                <i class="fas fa-calendar"></i>
+                <strong>Date of Birth:</strong>
+                <span>19 March 1993</span>
+              </li>
+              <li>
+                <i class="fas fa-map"></i>
+                <strong>Address:</strong>
+                <span>Faisalabad</span>
+              </li>
+              <li>
+                <i class="fas fa-bell"></i>
+                <strong>Languages:</strong>
+                <span>English, Urdu</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Section - Skills -->
+    <section id="skills" class="section bg-light">
+      <div class="container">
+        <div class="text-block-head text-center">
+          <h2>Skills</h2>
+          <p>Front-end Developer</p>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-md-4 skillsArea">
+            <div class="skills"> 
+              <div class="border p-5">
+                <span>85%</span>
+              </div>
+              <h4>HTML5</h4>
+              <p>Lorem ipsum dolor sit amet consectetur elit sed</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skills"> 
+              <div class="border p-5">
+                <span>75%</span>
+              </div>
+              <h4>CSS3</h4>
+              <p>Lorem ipsum dolor sit amet consectetur elit sed</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skills"> 
+              <div class="border p-5">
+                <span>0.3%</span>
+              </div>
+              <h4>JAVASCRIPT</h4>
+              <p>Lorem ipsum dolor sit amet consectetur elit sed</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skills"> 
+              <div class="border p-5">
+                <span>30%</span>
+              </div>
+              <h4>PHP / MYSQL</h4>
+              <p>Lorem ipsum dolor sit amet consectetur elit sed</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skills"> 
+              <div class="border p-5">
+                <span>70%</span>
+              </div>
+              <h4>PHOROSHOP</h4>
+              <p>Lorem ipsum dolor sit amet consectetur elit sed</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skills"> 
+              <div class="border p-5">
+                <span>70%</span>
+              </div>
+              <h4>ILLUSTRATOR</h4>
+              <p>Lorem ipsum dolor sit amet consectetur elit sed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- status skill overlayer -->
+    <section id="" class="bg-image text-light">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 single-status">
+            <i class="fab fa-r-project"></i>
+            <h2>385</h2>
+            <p>Porjects Done</p>
+          </div>
+          <div class="col-md-3 single-status">
+            <i class="far fa-clock"></i>
+            <h2>311</h2>
+            <p>Hours of Work</p>
+          </div>
+          <div class="col-md-3 single-status">
+            <i class="far fa-clock"></i>
+            <h2>385</h2>
+            <p>Awards Won</p>
+          </div>
+          <div class="col-md-3 single-status">
+            <i class="far fa-smile"></i>
+            <h2>333</h2>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Education -->
+    <section id="education" class="section bg-dark text-light">
+      <div class="container">
+        <div class="text-block-head text-center">
+          <h2>Education</h2>
+          <p>Front-end Developer</p>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+				<div class="section-title">
+					<h2>Education</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="border p-3">
+              <div class="year">Present</div>
+              <div class="detail">
+                <h4>MCS</h4>
+                <strong>Virtual University</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="border p-3">
+              <div class="year">2009 - 2011</div>
+                <div class="detail">
+                  <h4>Bachelor</h4>
+                  <strong>Punjab University Lahore</strong>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="border p-3">
+              <div class="year">2007 - 2009</div>
+              <div class="detail">
+                <h4>Intermediate</h4>
+                <strong>P.B.T.E Lahore</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="border p-3">
+              <div class="year">2006 - 2007</div>
+              <div class="detail">
+                <h4>Matric</h4>
+                <strong>B.I.S.E Faisalabad</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+				<!-- <ul class="h-timeline list-inline my-5  d-flex justify-content-between">
+					<li class="list-inline-item border p-3">
+						<div class="year">Present</div>
+						<div class="detail">
+							<h4>MCS</h4>
+							<strong>Virtual University</strong>
+						</div>
+					</li>
+					<li class="list-inline-item border p-3">
+						<div class="year">2009 - 2011</div>
+						<div class="detail">
+							<h4>Bachelor</h4>
+							<strong>Punjab University Lahore</strong>
+						</div>
+					</li>
+					<li class="list-inline-item border p-3">
+						<div class="year">2007 - 2009</div>
+						<div class="detail">
+							<h4>Intermediate</h4>
+							<strong>P.B.T.E Lahore</strong>
+						</div>
+					</li>
+					<li class="list-inline-item border p-3">
+						<div class="year">2006 - 2007</div>
+						<div class="detail">
+							<h4>Matric</h4>
+							<strong>B.I.S.E Faisalabad</strong>
+						</div>
+					</li>
+				</ul> -->
+        <br>
+				<div class="certification">
+					<div class="section-title">
+						<h3>Certifications</h3>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="panel border p-3">
+								<div class="panel-body">
+									<h4>Web Development</h4>
+									<strong>EVS Learning Faisalabad, Punjab.</strong>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="panel border p-3">
+								<div class="panel-body">
+									<h4>Web Designing</h4>
+									<strong>ApTech Faisalabad, Punjab.</strong>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="panel border p-3">
+								<div class="panel-body">
+									<h4>CCA <small>Course of computer application</small></h4>
+									<strong>TEVETA - P.B.T.E Lahore, Punjab.</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    </section>
+
+    <!-- Section - Experience -->
+    <section id="experience" class="section bg-light">
+      <div class="container">
+        <div class="text-block-head text-center">
+          <h2>Experience</h2>
+          <p>I'm Jr.Software Developer</p>
+          <hr>
+        </div>
+      </div>
+      <div class="container">
+				<ul class="timeline d-flex justify-content-between">
+					<li>
+						<div class="year">
+							<span>Present</span>
+							<span>2020</span>
+						</div>
+						<div class="detail">
+							<h4>ZEPTO SYSTEMS PVT LTD.</h4>
+							<strong>Jr.Software Developer</strong>
+							<ul class="list-unstyled">
+								<li>Created and optimized complex user flows.</li>
+								<li>
+									Developed intuitive and engaging experiences for the product.
+								</li>
+								<li>
+									Produced high-quality user interfaces and visual designs from
+									concept to launch on web and mobile applications.
+								</li>
+								<li>Experience with Agile environment and Scrum Works.</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="year">
+							<span>2019</span>
+							<span>2020</span>
+						</div>
+						<div class="detail">
+							<h4>SITARA INFO TECH PVT LTD.</h4>
+							<strong>Web Developer</strong>
+							<ul class="list-unstyled">
+								<li>
+									Created UI concept based on ideation and high-level
+									requirements, wireframes, hi-fidelity prototypes, conducted
+									end-user research.
+								</li>
+								<li>
+									Managed the design process and communication among internal
+									development team, CEO, CTO, early target customers.
+								</li>
+								<li>
+									Presented design solutions and usability research to senior
+									executive team.
+								</li>
+								<li>
+									Developed and maintained an evolving set of design patterns
+									and style guidelines.
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+    </section>
+    <!--portfolio gallery -->
+    <section id="portfolio" class="section text-light">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="gallery">
+            <div class="text-block-head text-center">
+              <h2>Portfolio</h2>
+              <p>I'm Jr.Software Developer</p>
+              <hr>
+            </div>
+            <div class="gallery-image">
+              <div class="gallery-col">
+                <div class="hovereffect">
+                  <a href="#">
+                    <img
+                      src="images/01project.png"
+                      alt="gallery-image-01"
+                      class="responsive"
+                    />
+                  </a>
+                  <div class="overlay">
+                    <h2>beauty-concept</h2>
+                    <div class="rotate">
+                      <p class="group1">
+                        <a href="#">
+                          <i
+                            class="fab fa-twitter"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-facebook-f"
+                          ></i>
+                        </a>
+                      </p>
+                      <hr />
+                      <hr />
+                      <p class="group2">
+                        <a href="#">
+                          <i
+                            class="fab fa-instagram"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-linkedin-in"
+                          ></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-col">
+                <div class="hovereffect">
+                  <a href="#">
+                    <img
+                      src="images/02project.png"
+                      alt="gallery-image-01"
+                      class="responsive"
+                    />
+                  </a>
+                  <div class="overlay">
+                    <h2>LA-SHOOPA</h2>
+                    <div class="rotate">
+                      <p class="group1">
+                        <a href="#">
+                          <i
+                            class="fab fa-twitter"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-facebook-f"
+                          ></i>
+                        </a>
+                      </p>
+                      <hr />
+                      <hr />
+                      <p class="group2">
+                        <a href="#">
+                          <i
+                            class="fab fa-instagram"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-linkedin-in"
+                          ></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-col">
+                <div class="hovereffect">
+                  <a href="#">
+                    <img
+                      src="images/10 project.png"
+                      alt="gallery-image-01"
+                      class="responsive"
+                    />
+                  </a>
+                  <div class="overlay">
+                    <h2>HEC-Paris</h2>
+                    <div class="rotate">
+                      <p class="group1">
+                        <a href="#">
+                          <i
+                            class="fab fa-twitter"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-facebook-f"
+                          ></i>
+                        </a>
+                      </p>
+                      <hr />
+                      <hr />
+                      <p class="group2">
+                        <a href="#">
+                          <i
+                            class="fab fa-instagram"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-linkedin-in"
+                          ></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-col">
+                <div class="hovereffect">
+                  <a href="#">
+                    <img
+                      src="images/06project.png"
+                      alt="gallery-image-01"
+                      class="responsive"
+                    />
+                  </a>
+                  <div class="overlay">
+                    <h2>Soulful-Travel</h2>
+                    <div class="rotate">
+                      <p class="group1">
+                        <a href="#">
+                          <i
+                            class="fab fa-twitter"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-facebook-f"
+                          ></i>
+                        </a>
+                      </p>
+                      <hr />
+                      <hr />
+                      <p class="group2">
+                        <a href="#">
+                          <i
+                            class="fab fa-instagram"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-linkedin-in"
+                          ></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-col">
+                <div class="hovereffect">
+                  <a href="#">
+                    <img
+                      src="images/08project.png"
+                      alt="gallery-image-01"
+                      class="responsive"
+                    />
+                  </a>
+                  <div class="overlay">
+                    <h2>helios</h2>
+                    <div class="rotate">
+                      <p class="group1">
+                        <a href="#">
+                          <i
+                            class="fab fa-twitter"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-facebook-f"
+                          ></i>
+                        </a>
+                      </p>
+                      <hr />
+                      <hr />
+                      <p class="group2">
+                        <a href="#">
+                          <i
+                            class="fab fa-instagram"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-linkedin-in"
+                          ></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-col">
+                <div class="hovereffect">
+                  <a href="#">
+                    <img
+                      src="images/05project.png"
+                      alt="gallery-image-01"
+                      class="responsive"
+                    />
+                  </a>
+                  <div class="overlay">
+                    <h2>Remarket</h2>
+                    <div class="rotate">
+                      <p class="group1">
+                        <a href="#">
+                          <i
+                            class="fab fa-twitter"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-facebook-f"
+                          ></i>
+                        </a>
+                      </p>
+                      <hr />
+                      <hr />
+                      <p class="group2">
+                        <a href="#">
+                          <i
+                            class="fab fa-instagram"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-linkedin-in"
+                          ></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-col">
+                <div class="hovereffect">
+                  <a href="#">
+                    <img
+                      src="images/09project.png"
+                      alt="gallery-image-01"
+                      class="responsive"
+                    />
+                  </a>
+                  <div class="overlay">
+                    <h2>INTERACT</h2>
+                    <div class="rotate">
+                      <p class="group1">
+                        <a href="#">
+                          <i
+                            class="fab fa-twitter"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-facebook-f"
+                          ></i>
+                        </a>
+                      </p>
+                      <hr />
+                      <hr />
+                      <p class="group2">
+                        <a href="#">
+                          <i
+                            class="fab fa-instagram"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-linkedin-in"
+                          ></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-col">
+                <div class="hovereffect">
+                  <a href="#">
+                    <img
+                      src="images/04project.png"
+                      alt="gallery-image-01"
+                      class="responsive"
+                    />
+                  </a>
+                  <div class="overlay">
+                    <h2>Nutrition</h2>
+                    <div class="rotate">
+                      <p class="group1">
+                        <a href="#">
+                          <i
+                            class="fab fa-twitter"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-facebook-f"
+                          ></i>
+                        </a>
+                      </p>
+                      <hr />
+                      <hr />
+                      <p class="group2">
+                        <a href="#">
+                          <i
+                            class="fab fa-instagram"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-linkedin-in"
+                          ></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-col">
+                <div class="hovereffect">
+                  <a href="#">
+                    <img
+                      src="images/11 project.png"
+                      alt="gallery-image-01"
+                      class="responsive"
+                    />
+                  </a>
+                  <div class="overlay">
+                    <h2>ESS</h2>
+                    <div class="rotate">
+                      <p class="group1">
+                        <a href="#">
+                          <i
+                            class="fab fa-twitter"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-facebook-f"
+                          ></i>
+                        </a>
+                      </p>
+                      <hr />
+                      <hr />
+                      <p class="group2">
+                        <a href="#">
+                          <i
+                            class="fab fa-instagram"
+                          ></i>
+                        </a>
+                        <a href="#">
+                          <i
+                            class="fab fa-linkedin-in"
+                          ></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Portfolio -->
+    <!-- <section id="portfolio" class="section bg-dark text-light">
+      <div class="container">
+        <div class="text-block-head text-center">
+          <h2>Portfolio</h2>
+          <p>I'm Jr.Software Developer</p>
+          <hr>
+        </div>
+        <div class="text-muted">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-5">
+                <img src="images/01project.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-5">
+                <img src="images/02project.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-5">
+                <img src="images/04project.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-5">
+                <img src="images/05project.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-5">
+                <img src="images/08project.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-5">
+                <img src="images/09project.png" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
 
+    <!-- Section - Contact -->
+    <section id="contact" class="section contact text-light">
+      <div class="overlay"></div>
+      <div class="container contact-form">
+        <div class="row mb-5">
+          <div class="col text-center">
+            <h1>Contact</h1>
+            <strong class="designation">I'm Jr.Software Developer</strong>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col">
+            <div class="text-block">
+              <h1>Personal Details</h1>
+              <p>Hye, I’m Johnathan Doe residing in this beautiful world. I create websites and mobile apps with great
+                UX and UI design. I have done work with big companies like Nokia, Google and Yahoo. Meet me or Contact
+                me for any queries.</p>
+              <p>One Extra line for filling space. Fill as many you want.Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+                ornare odio.</p>
+            </div>
+          </div>
+          <div class="col">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="" aria-describedby="" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" id="" placeholder="Your Phone">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="" rows="3" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-secondary">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="media-link">
+          <div class="media-item linkedIn">
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div class="media-item skype">
+            <a href="#">
+              <i class="fab fa-skype"></i>
+            </a>
+          </div>
+          <div class="media-item faceBook">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="media-item gitHub">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer bg-dark text-light text-center py-3">
+        <p>Copyright &copy; 2020. All rights reserved | Developed by Mubeen</p>
+      </div>
+    </section>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
