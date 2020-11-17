@@ -22,7 +22,6 @@ body {
 	line-height: 30px;
 	margin: 0;
 	padding: 0;
-	padding-top: 60px;
 }
 
 * {
@@ -111,23 +110,6 @@ ul {
 ol {
 }
 
-.bio {
-	position: relative;
-}
-
-.bio li {
-	position: relative;
-	padding-left: 30px;
-	margin-bottom: 10px;
-}
-
-.bio i {
-	margin-right: 15px;
-	position: absolute;
-	left: 0;
-	top: 10px;
-}
-
 /* Layout CSS Style */
 .section {
 	padding: 120px 0;
@@ -159,6 +141,17 @@ ol {
 }
 
 /* navbar */
+.navbar-dark {
+	background-color: transparent !important;
+	/* display: none; */
+}
+.bg-dark.navbar-fixed-top.scrolled {
+	background-color: #343a40 !important;
+	transition: background-color 200ms linear;
+	-webkit-box-shadow: 0px 1px 5px 2px #000000;
+	box-shadow: 0px 1px 5px 2px #000000;
+}
+
 .navbar {
 	position: fixed;
 	width: 100%;
@@ -172,7 +165,6 @@ ol {
 	height: 100vh;
 	margin-bottom: 0;
 	background-image: url(../images/jumbotron-bg-img.jpg);
-	background-color: black;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -680,6 +672,6 @@ ol {
 	padding-top: 10px;
 }
 .footer {
-	margin-top: 100px;
+	margin-top: 11%;
 	height: 60px;
 }
