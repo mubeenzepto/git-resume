@@ -1,0 +1,25 @@
+{
+  "name": "git-resume",
+  "version": "1.0.0",
+  "description": "Online GitHub Page for Resume",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mubeenzepto/git-resume.git"
+  },
+  "author": "Mubeen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mubeenzepto/git-resume/issues"
+  },
+  "homepage": "https://github.com/mubeenzepto/git-resume#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
